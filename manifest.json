@@ -1,0 +1,237 @@
+{
+    "name" : "创亿伙伴",
+    "appid" : "__UNI__A0C2DFE",
+    "description" : "",
+    "versionName" : "1.0.1",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "networkTimeout" : {
+        "uploadFile" : 40000,
+        "request" : 40000
+    },
+    "app-plus" : {
+        "compatible" : {
+            "ignoreVersion" : true
+        },
+        "safearea" : {
+            "background" : "#CCCCCC",
+            "bottom" : {
+                "offset" : "none"
+            }
+        },
+        "nvueCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "runmode" : "liberate ![img]",
+        "modules" : {
+            "Push" : {},
+            "Share" : {},
+            "Maps" : {},
+            "Payment" : {},
+            "OAuth" : {},
+            "Messaging" : {}
+        },
+        "distribute" : {
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.BIND_NFC_SERVICE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.NFC\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.SEND_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SMS\"/>"
+                ],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a", "x86" ],
+                "minSdkVersion" : 15,
+                "targetSdkVersion" : 27
+            },
+            "ios" : {
+                "urltypes" : [
+                    {
+                        "urlschemes" : [ "tbopen31478752" ]
+                    }
+                ],
+                "urlschemewhitelist" : "tbopen,tmall,alipay,taobao",
+                "privacyDescription" : {
+                    "NSPhotoLibraryUsageDescription" : "您的相册将被用来图片上传、完善个人信息等功能",
+                    "NSPhotoLibraryAddUsageDescription" : "您的相册将被用来保存图片功能",
+                    "NSLocationWhenInUseUsageDescription" : "需要通过获取地理位置来完善个人信息等功能",
+                    "NSCameraUsageDescription" : "您的相机将被用来图片上传、完善个人信息等功能",
+                    "NSLocationAlwaysAndWhenInUseUsageDescription" : "需要通过获取地理位置来完善个人信息等功能",
+                    "NSMicrophoneUsageDescription" : "想通过麦克风来访问用户信息用于在线客服沟通交流"
+                },
+                "idfa" : false
+            },
+            "sdkConfigs" : {
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wx081daf755f15a78b",
+                        "UniversalLinks" : "https://api.ngayet.com/"
+                    }
+                },
+                "push" : {
+                    "unipush" : {}
+                },
+                "ad" : {},
+                "maps" : {
+                    "baidu" : {
+                        "appkey_ios" : "Baep9d2TiqDnYivlt20xGoFovH80TWDB",
+                        "appkey_android" : "PGqimCmZb6f6DLCLigBBQBT8ZEFK70WO"
+                    }
+                },
+                "payment" : {
+                    "weixin" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appid" : "wx081daf755f15a78b",
+                        "UniversalLinks" : "https://api.ngayet.com/"
+                    }
+                },
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wx081daf755f15a78b",
+                        "appsecret" : "c3e5bd706b752e9a1644732f02b86e91",
+                        "UniversalLinks" : "https://api.ngayet.com/"
+                    }
+                }
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            },
+            "splashscreen" : {
+                "androidStyle" : "default",
+                "iosStyle" : "storyboard",
+                "android" : {
+                    "hdpi" : "D:/项目/cyhb/启动图/480x762.png",
+                    "xhdpi" : "D:/项目/cyhb/启动图/720x1242.png",
+                    "xxhdpi" : "D:/项目/cyhb/启动图/1080x1882.png"
+                },
+                "ios" : {
+                    "storyboard" : "D:/项目/cyhb/启动图/body.zip"
+                }
+            }
+        },
+        "nativePlugins" : {
+            "PP-BaiduFace" : {
+                "__plugin_info__" : {
+                    "name" : "【80国庆大促】双端百度人脸采集、活体检测  免费支持",
+                    "description" : "【80国庆大促】百度人脸采集 活体识别 双端、 前后摄   联系作者免费协助 另有本地版插件提供",
+                    "platforms" : "Android,iOS",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=800",
+                    "android_package_name" : "com.imaocn.partner",
+                    "ios_bundle_id" : "com.FourBa.Partner",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "800",
+                    "parameters" : {}
+                }
+            },
+            "UZK-Alibcsdk" : {
+                "__plugin_info__" : {
+                    "name" : "新版阿里百川SDK安卓4.0.0.15苹果4.0.1.6",
+                    "description" : "新增渠道授权（静默式），无需用户进行二次授权，即可获得用户的渠道ID。",
+                    "platforms" : "Android,iOS",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=873",
+                    "android_package_name" : "com.imaocn.partner",
+                    "ios_bundle_id" : "com.FourBa.Partner",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "873",
+                    "parameters" : {}
+                }
+            }
+        },
+        "uniStatistics" : {
+            "enable" : true
+        }
+    },
+    "quickapp" : {},
+    "mp-weixin" : {
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : true
+        },
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "h5" : {
+        "uniStatistics" : {
+            "enable" : true
+        }
+    },
+    "mp-alipay" : {
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "mp-baidu" : {
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "mp-qq" : {
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "mp-toutiao" : {
+        "uniStatistics" : {
+            "enable" : false
+        }
+    }
+}
